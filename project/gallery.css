@@ -1,0 +1,24 @@
+.gallery {
+    background-color: #d9eefc;
+    margin: 5px;
+    border: 3px solid #000000;
+    border-radius: 8px;
+    float: left;
+    width: 180px;
+  }
+  
+.gallery:hover {
+    border: 3px solid #777;
+    border-radius: 8px;
+  }
+  
+.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+.desc {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    text-align: center;
+  }
