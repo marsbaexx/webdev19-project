@@ -5,7 +5,11 @@ import sys
 
 
 def main():
+<<<<<<< HEAD
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'todo_back.settings')
+=======
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
+>>>>>>> 9eada6e416fa4b1441eaf9455c6ea41dac34afa4
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
